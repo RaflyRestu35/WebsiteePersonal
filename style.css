@@ -1,0 +1,116 @@
+body {
+    background-image: url('b1.jpg');
+    background-size: cover;
+    /* Menyesuaikan gambar dengan ukuran elemen */
+    background-position: 500px no-repeat;
+    /* Menghindari pengulangan gambar */
+}
+
+.container-navbar {}
+
+.li-navbar {
+    text-decoration: none;
+    color: rgb(205, 207, 91);
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 20px;
+    text-size-adjust: 1;
+}
+
+
+.container-pfp {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+
+}
+
+.pfp-content {
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    border: 50px;
+    border: 3px solid khaki;
+    box-shadow: 0px 0px 36px 7px rgba(164, 169, 96, 0.75);
+    -webkit-box-shadow: 0px 0px 36px 7px rgba(164, 169, 96, 0.75);
+    -moz-box-shadow: 0px 0px 36px 7px rgba(164, 169, 96, 0.75);
+}
+
+.typing-container {
+    color: white;
+    flex-direction: column;
+    line-height: 1.5;
+    text-align: left;
+    font-family: monospace;
+    white-space: nowrap;
+    font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    /* Menyembunyikan teks yang melampaui batas */
+    border-right: 3px solid black;
+    /* Garis kursor */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+.container-sosial {
+    margin-top: 20px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.sosial.content {}
+
+.text-content {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+
+.vertical-text {
+    display: flex;
+    flex-direction: column;
+    /* Teks diatur dalam kolom */
+    line-height: 1.5;
+    /* Jarak antar baris teks */
+    text-align: left;
+}
+
+.img-content {
+}
